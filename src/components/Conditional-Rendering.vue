@@ -17,6 +17,8 @@
   <!-- if will render or not onto the DOM, more expensive by keep mounting and unmounting from DOM, use when condition doesn't really change-->
   <h2 v-if="showElement">Using v-if</h2>
 
+  <!-- should not use v-for and v-if in the same tag, nested yes -->
+
 </template>
 
 <script>
