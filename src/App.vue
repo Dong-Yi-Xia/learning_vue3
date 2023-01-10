@@ -1,20 +1,23 @@
 <template>
   <!-- <Binding /> -->
   <!-- <ConditionalRendering /> -->
-  <ListRendering />
+  <!-- <ListRendering /> -->
+  <Methods />
 </template>
 
 <script>
 // import Binding from './components/Binding.vue';
 // import ConditionalRendering from './components/Conditional-Rendering.vue'
-import ListRendering from './components/List-Rendering.vue'
+// import ListRendering from './components/List-Rendering.vue'
+import Methods from './components/Methods.vue'
 
 export default {
   name: 'App',
   components: {
     // Binding,
     // ConditionalRendering,
-    ListRendering,
+    // ListRendering,
+    Methods,
   },
 };
 </script>
