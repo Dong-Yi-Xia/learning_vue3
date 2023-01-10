@@ -2,14 +2,16 @@
   <!-- <Binding /> -->
   <!-- <ConditionalRendering /> -->
   <!-- <ListRendering /> -->
-  <Methods />
+  <!-- <Methods /> -->
+  <EventHandlers />
 </template>
 
 <script>
 // import Binding from './components/Binding.vue';
 // import ConditionalRendering from './components/Conditional-Rendering.vue'
 // import ListRendering from './components/List-Rendering.vue'
-import Methods from './components/Methods.vue'
+// import Methods from './components/Methods.vue'
+import EventHandlers from './components/Event-Handler.vue';
 
 export default {
   name: 'App',
@@ -17,7 +19,8 @@ export default {
     // Binding,
     // ConditionalRendering,
     // ListRendering,
-    Methods,
+    // Methods,
+    EventHandlers,
   },
 };
 </script>
