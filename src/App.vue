@@ -4,7 +4,8 @@
   <!-- <ListRendering /> -->
   <!-- <Methods /> -->
   <!-- <EventHandlers /> -->
-  <Forms />
+  <!-- <Forms /> -->
+  <Computed />
 </template>
 
 <script>
@@ -13,7 +14,8 @@
 // import ListRendering from './components/List-Rendering.vue'
 // import Methods from './components/Methods.vue'
 // import EventHandlers from './components/Event-Handler.vue';
-import Forms from './components/Forms.vue'
+// import Forms from './components/Forms.vue'
+import Computed from './components/Computed.vue'
 
 export default {
   name: 'App',
@@ -23,7 +25,8 @@ export default {
     // ListRendering,
     // Methods,
     // EventHandlers,
-    Forms,
+    // Forms,
+    Computed,
   },
 };
 </script>
