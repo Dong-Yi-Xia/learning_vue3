@@ -3,7 +3,8 @@
   <!-- <ConditionalRendering /> -->
   <!-- <ListRendering /> -->
   <!-- <Methods /> -->
-  <EventHandlers />
+  <!-- <EventHandlers /> -->
+  <Forms />
 </template>
 
 <script>
@@ -11,7 +12,8 @@
 // import ConditionalRendering from './components/Conditional-Rendering.vue'
 // import ListRendering from './components/List-Rendering.vue'
 // import Methods from './components/Methods.vue'
-import EventHandlers from './components/Event-Handler.vue';
+// import EventHandlers from './components/Event-Handler.vue';
+import Forms from './components/Forms.vue'
 
 export default {
   name: 'App',
@@ -20,7 +22,8 @@ export default {
     // ConditionalRendering,
     // ListRendering,
     // Methods,
-    EventHandlers,
+    // EventHandlers,
+    Forms,
   },
 };
 </script>
