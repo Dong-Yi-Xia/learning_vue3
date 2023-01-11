@@ -6,12 +6,20 @@
     <h3 v-bind="$attrs">{{ title }}</h3>
     <h3>Likes - {{ likes }}</h3>
     <h3>Published Status - {{ isPublished ? 'yes' : 'no' }}</h3>
+    <hr />
+
+    <PropComponentA />
   </div>
 </template>
 
 <script>
+import PropComponentA from './Props-ComponentA.vue';
+
 export default {
   name: 'Props2',
+  components: {
+    PropComponentA,
+  },
   // Get from the parent component, that will be accepted, object, key is prop-name, value is prop-type
   // With object Type check
   props: {
