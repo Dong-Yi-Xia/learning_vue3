@@ -5,7 +5,8 @@
   <!-- <Methods /> -->
   <!-- <EventHandlers /> -->
   <!-- <Forms /> -->
-  <Computed />
+  <!-- <Computed /> -->
+  <Watchers />
 </template>
 
 <script>
@@ -15,7 +16,8 @@
 // import Methods from './components/Methods.vue'
 // import EventHandlers from './components/Event-Handler.vue';
 // import Forms from './components/Forms.vue'
-import Computed from './components/Computed.vue'
+// import Computed from './components/Computed.vue'
+import Watchers from './components/Watchers.vue'
 
 export default {
   name: 'App',
@@ -26,7 +28,8 @@ export default {
     // Methods,
     // EventHandlers,
     // Forms,
-    Computed,
+    // Computed,
+    Watchers,
   },
 };
 </script>
