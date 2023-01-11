@@ -6,7 +6,8 @@
   <!-- <EventHandlers /> -->
   <!-- <Forms /> -->
   <!-- <Computed /> -->
-  <Watchers />
+  <!-- <Watchers /> -->
+  <PropsParent />
 </template>
 
 <script>
@@ -17,7 +18,8 @@
 // import EventHandlers from './components/Event-Handler.vue';
 // import Forms from './components/Forms.vue'
 // import Computed from './components/Computed.vue'
-import Watchers from './components/Watchers.vue'
+// import Watchers from './components/Watchers.vue'
+import PropsParent from './components-usage/Props-Parent.vue'
 
 export default {
   name: 'App',
@@ -29,7 +31,8 @@ export default {
     // EventHandlers,
     // Forms,
     // Computed,
-    Watchers,
+    // Watchers,
+    PropsParent,
   },
 };
 </script>
