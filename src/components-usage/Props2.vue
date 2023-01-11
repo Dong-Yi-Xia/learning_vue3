@@ -1,8 +1,12 @@
 <template>
-  <h2>Article</h2>
-  <h3>{{ title }}</h3>
-  <h3>Likes - {{ likes }}</h3>
-  <h3>Published Status - {{ isPublished ? 'yes' : 'no' }}</h3>
+  <!-- non-props attributes automatically apply to root node -->
+  <div>
+    <h2>Article</h2>
+    <!-- use special v-bind $attrs for non-props attributes to element of choice-->
+    <h3 v-bind="$attrs">{{ title }}</h3>
+    <h3>Likes - {{ likes }}</h3>
+    <h3>Published Status - {{ isPublished ? 'yes' : 'no' }}</h3>
+  </div>
 </template>
 
 <script>
@@ -22,6 +26,8 @@ export default {
     likes: Number,
     isPublished: Boolean,
   },
+  //Use to prevent non-props attributes (not custom props) such as id, class, style to root node
+  inheritAttrs: false,
 };
 </script>
 

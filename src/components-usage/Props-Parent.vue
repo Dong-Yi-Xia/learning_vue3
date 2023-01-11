@@ -6,7 +6,7 @@
   <!-- Props and v-bind -->
   <Props :name="name" :hero-name="channel" />
   <!-- v-bind stringnumber => number, use v-bind directive is bing non-string values -->
-  <Props2 title="Does Feet Smell?" :likes="50" :isPublished="true" />
+  <Props2 title="Does Feet Smell?" :likes="50" :isPublished="true" id="my-article"/>
 </template>
 
 <script>
