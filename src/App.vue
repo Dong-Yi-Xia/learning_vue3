@@ -8,7 +8,9 @@
   <!-- <Computed /> -->
   <!-- <Watchers /> -->
   <!-- <PropsParent /> -->
-  <ComponentEvent />
+  <!-- <ComponentEvent /> -->
+  <!-- <CustomInput /> -->
+  <ParentSlot />
 </template>
 
 <script>
@@ -20,8 +22,10 @@
 // import Forms from './components/Forms.vue'
 // import Computed from './components/Computed.vue'
 // import Watchers from './components/Watchers.vue'
-// import PropsParent from './components-usage/Props-Parent.vue'
-import ComponentEvent from './components-usage/Component-Event.vue'
+// import PropsParent from './components-usage/Props/Props-Parent.vue'
+// import ComponentEvent from './components-usage/Emit/Component-Event.vue'
+// import CustomInput from './components-usage/CustomVModel/CustomInput.vue'
+import ParentSlot from './components-usage/Slots/ParentSlot.vue'
 
 export default {
   name: 'App',
@@ -35,7 +39,9 @@ export default {
     // Computed,
     // Watchers,
     // PropsParent,
-    ComponentEvent,
+    // ComponentEvent,
+    // CustomInput,
+    ParentSlot,
   },
 };
 </script>
