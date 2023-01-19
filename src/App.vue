@@ -10,7 +10,8 @@
   <!-- <PropsParent /> -->
   <!-- <ComponentEvent /> -->
   <!-- <CustomInput /> -->
-  <ParentSlot />
+  <!-- <ParentSlot /> -->
+  <ParentSlot2 />
 </template>
 
 <script>
@@ -25,7 +26,8 @@
 // import PropsParent from './components-usage/Props/Props-Parent.vue'
 // import ComponentEvent from './components-usage/Emit/Component-Event.vue'
 // import CustomInput from './components-usage/CustomVModel/CustomInput.vue'
-import ParentSlot from './components-usage/Slots/ParentSlot.vue'
+// import ParentSlot from './components-usage/Slots/ParentSlot.vue'
+import ParentSlot2 from './components-usage/Slots/ParentSlot2.vue';
 
 export default {
   name: 'App',
@@ -41,7 +43,8 @@ export default {
     // PropsParent,
     // ComponentEvent,
     // CustomInput,
-    ParentSlot,
+    // ParentSlot,
+    ParentSlot2,
   },
 };
 </script>
