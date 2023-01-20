@@ -1,20 +1,23 @@
 <template>
-  <!-- <Binding /> -->
-  <!-- <ConditionalRendering /> -->
-  <!-- <ListRendering /> -->
-  <!-- <Methods /> -->
-  <!-- <EventHandlers /> -->
-  <!-- <Forms /> -->
-  <!-- <Computed /> -->
-  <!-- <Watchers /> -->
-  <!-- <PropsParent /> -->
-  <!-- <ComponentEvent /> -->
-  <!-- <CustomInput /> -->
-  <!-- <ParentSlot /> -->
-  <!-- <ParentSlot2 /> -->
-  <!-- <DynamicParent /> -->
-  <!-- <Portal /> -->
-  <HttpParent />
+  <div>
+    <!-- <Binding /> -->
+    <!-- <ConditionalRendering /> -->
+    <!-- <ListRendering /> -->
+    <!-- <Methods /> -->
+    <!-- <EventHandlers /> -->
+    <!-- <Forms /> -->
+    <!-- <Computed /> -->
+    <!-- <Watchers /> -->
+    <!-- <PropsParent /> -->
+    <!-- <ComponentEvent /> -->
+    <!-- <CustomInput /> -->
+    <!-- <ParentSlot /> -->
+    <!-- <ParentSlot2 /> -->
+    <!-- <DynamicParent /> -->
+    <!-- <Portal /> -->
+    <HttpParent />
+    <LifecycleParent />
+  </div>
 </template>
 
 <script>
@@ -34,6 +37,7 @@
 // import DynamicParent from './components-usage/DynamicComponent/DynamicParent.vue';
 // import Portal from './components-usage/TeleportComponent/Portal.vue';
 import HttpParent from './components-usage/Http/HttpParent.vue';
+import LifecycleParent from './components-usage/Lifecycle/LifecycleParent.vue';
 
 export default {
   name: 'App',
@@ -54,6 +58,7 @@ export default {
     // DynamicParent,
     // Portal,
     HttpParent,
+    LifecycleParent,
   },
 };
 </script>

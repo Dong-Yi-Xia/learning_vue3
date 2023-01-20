@@ -23,6 +23,10 @@ export default {
       errorMsg: '',
     };
   },
+  //Fetch data on page is created, rather than clicking a button
+  // created(){
+  //   this.getPosts()
+  // },
   methods: {
     getPosts() {
       axios
