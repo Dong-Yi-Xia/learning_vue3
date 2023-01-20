@@ -2,15 +2,20 @@
 from server, its needs a http library such as axios, fetch
 
 <template>
-  <div><PostList /></div>
+  <div>
+    <CreatePost />
+    <PostList />
+  </div>
 </template>
 
 <script>
 import PostList from './PostList.vue';
+import CreatePost from './CreatePost.vue';
 export default {
   name: 'HttpParent',
   components: {
     PostList,
+    CreatePost,
   },
 };
 </script>
