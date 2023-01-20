@@ -1,28 +1,30 @@
 <template>
-  <h1>Watchers</h1>
-
-  <h2>volume tracker</h2>
-  <h3>current volume - {{ volume }}</h3>
   <div>
-    <button @click="volume += 2">Increase</button>
-    <button @click="volume -= 2">Decrease</button>
-  </div>
-  <hr />
+    <h1>Watchers</h1>
 
-  <label for="Movie">Movie</label>
-  <input type="text" v-model="movie" />
+    <h2>volume tracker</h2>
+    <h3>current volume - {{ volume }}</h3>
+    <div>
+      <button @click="volume += 2">Increase</button>
+      <button @click="volume -= 2">Decrease</button>
+    </div>
+    <hr />
 
-  <label for="Title">Title</label>
-  <input type="text" v-model.lazy="movieInfo.title" />
+    <label for="Movie">Movie</label>
+    <input type="text" v-model="movie" />
 
-  <label for="Actor">Actor</label>
-  <input type="text" v-model="movieInfo.actor" />
+    <label for="Title">Title</label>
+    <input type="text" v-model.lazy="movieInfo.title" />
 
-  <div>
-    <button @click="movieList.push('hero')">Add movie</button>
+    <label for="Actor">Actor</label>
+    <input type="text" v-model="movieInfo.actor" />
 
-    <!-- By creating a new references, in the watcher, the deep property is not needed  -->
-    <!-- <button @click="movieList = movieList.concat(['hero'])">Add movie</button> -->
+    <div>
+      <button @click="movieList.push('hero')">Add movie</button>
+
+      <!-- By creating a new references, in the watcher, the deep property is not needed  -->
+      <!-- <button @click="movieList = movieList.concat(['hero'])">Add movie</button> -->
+    </div>
   </div>
 </template>
 

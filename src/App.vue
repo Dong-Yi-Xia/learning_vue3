@@ -13,7 +13,8 @@
   <!-- <ParentSlot /> -->
   <!-- <ParentSlot2 /> -->
   <!-- <DynamicParent /> -->
-  <Portal />
+  <!-- <Portal /> -->
+  <HttpParent />
 </template>
 
 <script>
@@ -31,7 +32,8 @@
 // import ParentSlot from './components-usage/Slots/ParentSlot.vue';
 // import ParentSlot2 from './components-usage/Slots/ParentSlot2.vue';
 // import DynamicParent from './components-usage/DynamicComponent/DynamicParent.vue';
-import Portal from './components-usage/TeleportComponent/Portal.vue';
+// import Portal from './components-usage/TeleportComponent/Portal.vue';
+import HttpParent from './components-usage/Http/HttpParent.vue';
 
 export default {
   name: 'App',
@@ -50,7 +52,8 @@ export default {
     // ParentSlot,
     // ParentSlot2,
     // DynamicParent,
-    Portal,
+    // Portal,
+    HttpParent,
   },
 };
 </script>
