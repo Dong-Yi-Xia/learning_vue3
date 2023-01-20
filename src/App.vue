@@ -11,7 +11,8 @@
   <!-- <ComponentEvent /> -->
   <!-- <CustomInput /> -->
   <!-- <ParentSlot /> -->
-  <ParentSlot2 />
+  <!-- <ParentSlot2 /> -->
+  <DynamicParent />
 </template>
 
 <script>
@@ -27,7 +28,8 @@
 // import ComponentEvent from './components-usage/Emit/Component-Event.vue'
 // import CustomInput from './components-usage/CustomVModel/CustomInput.vue'
 // import ParentSlot from './components-usage/Slots/ParentSlot.vue'
-import ParentSlot2 from './components-usage/Slots/ParentSlot2.vue';
+// import ParentSlot2 from './components-usage/Slots/ParentSlot2.vue';
+import DynamicParent from './components-usage/DynamicComponent/DynamicParent.vue';
 
 export default {
   name: 'App',
@@ -44,7 +46,8 @@ export default {
     // ComponentEvent,
     // CustomInput,
     // ParentSlot,
-    ParentSlot2,
+    // ParentSlot2,
+    DynamicParent,
   },
 };
 </script>
