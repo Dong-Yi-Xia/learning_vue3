@@ -15,8 +15,9 @@
     <!-- <ParentSlot2 /> -->
     <!-- <DynamicParent /> -->
     <!-- <Portal /> -->
-    <HttpParent />
-    <LifecycleParent />
+    <!-- <HttpParent /> -->
+    <!-- <LifecycleParent /> -->
+    <TemplaetRef />
   </div>
 </template>
 
@@ -36,8 +37,9 @@
 // import ParentSlot2 from './components-usage/Slots/ParentSlot2.vue';
 // import DynamicParent from './components-usage/DynamicComponent/DynamicParent.vue';
 // import Portal from './components-usage/TeleportComponent/Portal.vue';
-import HttpParent from './components-usage/Http/HttpParent.vue';
-import LifecycleParent from './components-usage/Lifecycle/LifecycleParent.vue';
+// import HttpParent from './components-usage/Http/HttpParent.vue';
+// import LifecycleParent from './components-usage/Lifecycle/LifecycleParent.vue';
+import TemplaetRef from './components-usage/TemplateRef/TemplateRef.vue';
 
 export default {
   name: 'App',
@@ -57,8 +59,9 @@ export default {
     // ParentSlot2,
     // DynamicParent,
     // Portal,
-    HttpParent,
-    LifecycleParent,
+    // HttpParent,
+    // LifecycleParent,
+    TemplaetRef,
   },
 };
 </script>
