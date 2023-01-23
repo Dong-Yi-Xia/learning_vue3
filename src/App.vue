@@ -17,7 +17,8 @@
     <!-- <Portal /> -->
     <!-- <HttpParent /> -->
     <!-- <LifecycleParent /> -->
-    <TemplaetRef />
+    <!-- <TemplaetRef /> -->
+    <MixinParent />
   </div>
 </template>
 
@@ -39,7 +40,8 @@
 // import Portal from './components-usage/TeleportComponent/Portal.vue';
 // import HttpParent from './components-usage/Http/HttpParent.vue';
 // import LifecycleParent from './components-usage/Lifecycle/LifecycleParent.vue';
-import TemplaetRef from './components-usage/TemplateRef/TemplateRef.vue';
+// import TemplaetRef from './components-usage/TemplateRef/TemplateRef.vue';
+import MixinParent from './components-usage/Mixins/MixinParent.vue';
 
 export default {
   name: 'App',
@@ -61,7 +63,8 @@ export default {
     // Portal,
     // HttpParent,
     // LifecycleParent,
-    TemplaetRef,
+    // TemplaetRef,
+    MixinParent,
   },
 };
 </script>
