@@ -18,7 +18,8 @@
     <!-- <HttpParent /> -->
     <!-- <LifecycleParent /> -->
     <!-- <TemplaetRef /> -->
-    <MixinParent />
+    <!-- <MixinParent /> -->
+    <DataC />
   </div>
 </template>
 
@@ -41,7 +42,8 @@
 // import HttpParent from './components-usage/Http/HttpParent.vue';
 // import LifecycleParent from './components-usage/Lifecycle/LifecycleParent.vue';
 // import TemplaetRef from './components-usage/TemplateRef/TemplateRef.vue';
-import MixinParent from './components-usage/Mixins/MixinParent.vue';
+// import MixinParent from './components-usage/Mixins/MixinParent.vue';
+import DataC from './composition-api/DataC.vue';
 
 export default {
   name: 'App',
@@ -64,7 +66,8 @@ export default {
     // HttpParent,
     // LifecycleParent,
     // TemplaetRef,
-    MixinParent,
+    // MixinParent,
+    DataC,
   },
 };
 </script>

@@ -1,4 +1,4 @@
-// Can use any data, methods, watch, computed,...
+// Can use any data, methods, watcher, computed, lifecycle ... aka(options API)
 
 export default {
   data(){
