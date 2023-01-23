@@ -19,7 +19,9 @@
     <!-- <LifecycleParent /> -->
     <!-- <TemplaetRef /> -->
     <!-- <MixinParent /> -->
-    <DataC />
+    <!-- <DataC /> -->
+    <!-- <DemoOne /> -->
+    <DemoTwo />
   </div>
 </template>
 
@@ -43,7 +45,9 @@
 // import LifecycleParent from './components-usage/Lifecycle/LifecycleParent.vue';
 // import TemplaetRef from './components-usage/TemplateRef/TemplateRef.vue';
 // import MixinParent from './components-usage/Mixins/MixinParent.vue';
-import DataC from './composition-api/DataC.vue';
+// import DataC from './composition-api/DataC.vue';
+// import DemoOne from './composition-api/DemoOne.vue';
+import DemoTwo from './composition-api/DemoTwo.vue';
 
 export default {
   name: 'App',
@@ -67,7 +71,9 @@ export default {
     // LifecycleParent,
     // TemplaetRef,
     // MixinParent,
-    DataC,
+    // DataC,
+    // DemoOne,
+    DemoTwo,
   },
 };
 </script>
