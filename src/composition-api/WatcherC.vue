@@ -65,7 +65,7 @@ export default {
     // watch(
     //   () => {
     //     return { ...state };
-    //   },
+    //   },  //() => ({...state}) Condensed way of writing
     //   (newValue, oldValue) => {
     //     console.log('Reactive firstName OldValue C', oldValue.fName);
     //     console.log('Reactive firstName NewValue C', newValue.fName);
@@ -85,8 +85,14 @@ export default {
 
     // watch deep nested
     watch(
-      () => _.cloneDeep(state.options), //deep value old and new are different
+      // () => _.cloneDeep(state.options), //deep value old and new are different
       // () => state.options   //deep value old and new are the same
+      // () => {
+      //   return {
+      //     ...state.options,
+      //   };
+      // }, // to get different old and new value
+      () => ({ ...state.options }), //Condensed way of writing
       (newValue, oldValue) => {
         console.log('Deep OldValue C', oldValue);
         console.log('Deep NewValue C', newValue);
