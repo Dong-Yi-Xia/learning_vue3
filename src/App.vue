@@ -25,7 +25,8 @@
     <!-- <MethodsC /> -->
     <!-- <VModelC /> -->
     <!-- <ComputedC /> -->
-    <WatcherC />
+    <!-- <WatcherC /> -->
+    <ProvideInjectC />
   </div>
 </template>
 
@@ -55,7 +56,8 @@
 // import MethodsC from './composition-api/MethodsC.vue';
 // import VModelC from './composition-api/VModelC.vue';
 // import ComputedC from './composition-api/ComputedC.vue';
-import WatcherC from './composition-api/WatcherC.vue';
+// import WatcherC from './composition-api/WatcherC.vue';
+import ProvideInjectC from './composition-api/ProvideInjectC.vue';
 
 export default {
   name: 'App',
@@ -85,7 +87,8 @@ export default {
     // MethodsC,
     // VModelC,
     // ComputedC,
-    WatcherC,
+    // WatcherC,
+    ProvideInjectC,
   },
 };
 </script>
