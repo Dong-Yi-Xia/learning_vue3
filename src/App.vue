@@ -21,7 +21,8 @@
     <!-- <MixinParent /> -->
     <!-- <DataC /> -->
     <!-- <DemoOne /> -->
-    <DemoTwo />
+    <!-- <DemoTwo /> -->
+    <MethodsC />
   </div>
 </template>
 
@@ -47,7 +48,8 @@
 // import MixinParent from './components-usage/Mixins/MixinParent.vue';
 // import DataC from './composition-api/DataC.vue';
 // import DemoOne from './composition-api/DemoOne.vue';
-import DemoTwo from './composition-api/DemoTwo.vue';
+// import DemoTwo from './composition-api/DemoTwo.vue';
+import MethodsC from './composition-api/MethodsC.vue';
 
 export default {
   name: 'App',
@@ -73,7 +75,8 @@ export default {
     // MixinParent,
     // DataC,
     // DemoOne,
-    DemoTwo,
+    // DemoTwo,
+    MethodsC,
   },
 };
 </script>
