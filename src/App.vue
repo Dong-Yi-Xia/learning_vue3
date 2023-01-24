@@ -22,7 +22,8 @@
     <!-- <DataC /> -->
     <!-- <DemoOne /> -->
     <!-- <DemoTwo /> -->
-    <MethodsC />
+    <!-- <MethodsC /> -->
+    <VModelC />
   </div>
 </template>
 
@@ -49,7 +50,8 @@
 // import DataC from './composition-api/DataC.vue';
 // import DemoOne from './composition-api/DemoOne.vue';
 // import DemoTwo from './composition-api/DemoTwo.vue';
-import MethodsC from './composition-api/MethodsC.vue';
+// import MethodsC from './composition-api/MethodsC.vue';
+import VModelC from './composition-api/VModelC.vue';
 
 export default {
   name: 'App',
@@ -76,7 +78,8 @@ export default {
     // DataC,
     // DemoOne,
     // DemoTwo,
-    MethodsC,
+    // MethodsC,
+    VModelC,
   },
 };
 </script>

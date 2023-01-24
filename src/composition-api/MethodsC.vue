@@ -5,8 +5,8 @@
     <h2>Increasing Count {{ count }}</h2>
     <button @click="increaseCount">Increase</button>
 
-    <h2>ToRefs() reactive -</h2>
-    <h2>{{ first }} - {{ last }}</h2>
+    <hr />
+    <h2>ToRefs() reactive - {{ first }} - {{ last }}</h2>
     <button @click="changeHero">Change my hero</button>
   </div>
 </template>
