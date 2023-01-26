@@ -28,7 +28,8 @@
     <!-- <WatcherC /> -->
     <!-- <ProvideInjectC /> -->
     <!-- <LifeCycleC /> -->
-    <TemplaetRefC />
+    <!-- <TemplaetRefC /> -->
+    <PropParentC />
   </div>
 </template>
 
@@ -61,7 +62,8 @@
 // import WatcherC from './composition-api/WatcherC.vue';
 // import ProvideInjectC from './composition-api/ProvideInjectC.vue';
 // import LifeCycleC from './composition-api/LifeCycleC.vue';
-import TemplaetRefC from './composition-api/TemplateRefC.vue';
+// import TemplaetRefC from './composition-api/TemplateRefC.vue';
+import PropParentC from './composition-api/PropParentC.vue';
 
 export default {
   name: 'App',
@@ -94,7 +96,8 @@ export default {
     // WatcherC,
     // ProvideInjectC,
     // LifeCycleC,
-    TemplaetRefC,
+    // TemplaetRefC,
+    PropParentC,
   },
 };
 </script>
