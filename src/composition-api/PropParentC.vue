@@ -4,7 +4,11 @@
     <input type="text" v-model="firstName" />
     <input type="text" v-model="lastName" />
 
-    <PropChildC :firstName="firstName" :lastName="lastName" />
+    <PropChildC
+      :firstName="firstName"
+      :lastName="lastName"
+      @call-heroes="alertHero"
+    />
   </div>
 </template>
 
@@ -20,9 +24,14 @@ export default {
     const firstName = ref('');
     const lastName = ref('');
 
+    function alertHero(hero) {
+      alert(`Calling ${hero}`);
+    }
+
     return {
       firstName,
       lastName,
+      alertHero
     };
   },
 };
