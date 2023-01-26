@@ -26,7 +26,8 @@
     <!-- <VModelC /> -->
     <!-- <ComputedC /> -->
     <!-- <WatcherC /> -->
-    <ProvideInjectC />
+    <!-- <ProvideInjectC /> -->
+    <LifeCycleC />
   </div>
 </template>
 
@@ -58,6 +59,7 @@
 // import ComputedC from './composition-api/ComputedC.vue';
 // import WatcherC from './composition-api/WatcherC.vue';
 import ProvideInjectC from './composition-api/ProvideInjectC.vue';
+import LifeCycleC from './composition-api/LifeCycleC.vue';
 
 export default {
   name: 'App',
@@ -88,7 +90,8 @@ export default {
     // VModelC,
     // ComputedC,
     // WatcherC,
-    ProvideInjectC,
+    // ProvideInjectC,
+    LifeCycleC,
   },
 };
 </script>
