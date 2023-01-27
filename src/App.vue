@@ -29,7 +29,8 @@
     <!-- <ProvideInjectC /> -->
     <!-- <LifeCycleC /> -->
     <!-- <TemplaetRefC /> -->
-    <PropParentC />
+    <!-- <PropParentC /> -->
+    <MixinParentC />
   </div>
 </template>
 
@@ -63,7 +64,8 @@
 // import ProvideInjectC from './composition-api/ProvideInjectC.vue';
 // import LifeCycleC from './composition-api/LifeCycleC.vue';
 // import TemplaetRefC from './composition-api/TemplateRefC.vue';
-import PropParentC from './composition-api/PropParentC.vue';
+// import PropParentC from './composition-api/PropParentC.vue';
+import MixinParentC from './composition-api/MixinC/MixinParentC.vue';
 
 export default {
   name: 'App',
@@ -97,7 +99,8 @@ export default {
     // ProvideInjectC,
     // LifeCycleC,
     // TemplaetRefC,
-    PropParentC,
+    // PropParentC,
+    MixinParentC,
   },
 };
 </script>
