@@ -2,7 +2,6 @@
   <div>
     <ClickCountC />
     <HoverCountC />
-    aaa
   </div>
 </template>
 
