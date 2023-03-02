@@ -15,11 +15,6 @@
   "plugins": ["vue"],
   "rules": {
     "no-unused-vars": "off",
-    "vue/multi-word-component-names": [
-      "error",
-      {
-        "ignores": ["default"]
-      }
-    ]
+    "vue/multi-word-component-names": 0
   }
 }
